@@ -28,7 +28,7 @@ export interface Game {
 export const games: Game[] = [
   {
     id:              'game-001',
-    name:            'Chodu CID',
+    name:            'Cho*du CID',
     slug:            'chodu-cid',
     description:     'ACP Pradyuman ka investigation run! Tap karo jump karo — case solve karo bhai 😂',
     longDescription: "ACP Pradyuman is on the run! This endless runner puts you in the shoes of CID's greatest detective. Jump over clues, dodge obstacles, and shout \"DAYA DARWAZA TODO\" as you sprint through the case! Tap to jump, survive as long as possible. Case #402: The Runaway awaits!",
@@ -70,8 +70,8 @@ export const games: Game[] = [
     id:              'game-003',
     name:            'Poli Fight',
     slug:            'poli-fight',
-    description:     'Modi chases Rahul across India! Change lanes, jump, grab votes — Bharat Daud 🗳️🏃',
-    longDescription: "BHARAT DAUD — You are Modi. Chase Rahul through Delhi, UP, Bihar, Mumbai, Bengaluru, Rajasthan & Uttarakhand! Every state throws its own obstacles on the road. Grab votes, answer quizzes and run through the right answer gate to close the gap! Change lanes, jump, slide!",
+    description:     'Chai Wala chases Pappu across India! Change lanes, jump, grab votes — Bharat Daud 🗳️🏃',
+    longDescription: "BHARAT DAUD — You are Chai Wala. Chase Pappu through Delhi, UP, Bihar, Mumbai, Bengaluru, Rajasthan & Uttarakhand! Every state throws its own obstacles on the road. Grab votes, answer quizzes and run through the right answer gate to close the gap! Change lanes, jump, slide!",
     thumbnail:       '/games/poli-fight-gameplay.jpg',
     banner:          '/games/poli-fight-gameplay.jpg',
     gameplayVideo:   '/games/poli-fight-gameplay.mp4',
@@ -81,7 +81,7 @@ export const games: Game[] = [
     launchMode:      'embed',
     featured:        true,
     published:       true,
-    instructions:    'Change lanes, jump and slide to collect votes. Answer quiz gates to close the gap on Rahul!',
+    instructions:    'Change lanes, jump and slide to collect votes. Answer quiz gates to close the gap on Pappu!',
     controls:        ['A D / Arrow keys — Change lane', 'W / Space — Jump', 'S / Down — Slide', 'P / M — Pause / Mute'],
     releaseDate:     '2024-03-01',
     developer:       'Om Shukla',

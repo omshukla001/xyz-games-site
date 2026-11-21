@@ -10,7 +10,7 @@ import type { Game } from '../../data/games';
    Falls back to pure CSS scene if screenshot not found.
 ══════════════════════════════════════════════════════════════ */
 
-/* ── Chodu CID overlay elements ── */
+/* ── Cho*du CID overlay elements ── */
 function CIDOverlay() {
   return (
     <>
@@ -266,7 +266,7 @@ const CONFIGS: Record<string, CardConfig> = {
     badge:        '🇮🇳 BHARAT DAUD',
     slangs: [
       '🗳️ "Vote loot karo bhai!"',
-      '🏃 Modi chases Rahul pan India!',
+      '🏃 Chai Wala chases Pappu pan India!',
       '🧠 Answer quiz gates to win!',
     ],
   },
