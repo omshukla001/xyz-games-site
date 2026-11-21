@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1A0A"/>
+      <stop offset="100%" stop-color="#1A2A05"/>
+    </linearGradient>
+    <linearGradient id="sunsetG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity=".5"/>
+      <stop offset="60%" stop-color="#FFB347" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#0A1A0A" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="roadG2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a1a"/>
+      <stop offset="100%" stop-color="#1a1a0a"/>
+    </linearGradient>
+    <filter id="glow2"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="270" fill="url(#bg2)"/>
+  <!-- Sunset glow -->
+  <rect width="480" height="270" fill="url(#sunsetG)"/>
+
+  <!-- Sun/moon glow -->
+  <circle cx="240" cy="130" r="60" fill="#FF8C00" opacity=".12" filter="url(#soft)"/>
+  <circle cx="240" cy="135" r="30" fill="#FFB347" opacity=".2"/>
+
+  <!-- City silhouette -->
+  <rect x="0"   y="155" width="25"  height="115" fill="#0C1A0C" opacity=".95"/>
+  <rect x="30"  y="130" width="40"  height="140" fill="#0A180A" opacity=".95"/>
+  <rect x="75"  y="145" width="30"  height="125" fill="#0C1A0C" opacity=".95"/>
+  <rect x="110" y="120" width="45"  height="150" fill="#0A180A" opacity=".95"/>
+  <rect x="160" y="140" width="35"  height="130" fill="#0C1A0C" opacity=".95"/>
+  <rect x="200" y="125" width="50"  height="145" fill="#0A180A" opacity=".95"/>
+  <rect x="255" y="138" width="38"  height="132" fill="#0C1A0C" opacity=".95"/>
+  <rect x="298" y="118" width="48"  height="152" fill="#0A180A" opacity=".95"/>
+  <rect x="350" y="142" width="32"  height="128" fill="#0C1A0C" opacity=".95"/>
+  <rect x="387" y="128" width="45"  height="142" fill="#0A180A" opacity=".95"/>
+  <rect x="437" y="148" width="43"  height="122" fill="#0C1A0C" opacity=".95"/>
+
+  <!-- Temple/arch silhouette (Indian city) -->
+  <path d="M195 140 Q205 110 215 140" fill="#0A180A" opacity=".95"/>
+  <path d="M210 125 Q215 112 220 125" fill="#0A180A" opacity=".95"/>
+
+  <!-- Road -->
+  <rect x="0" y="210" width="480" height="60" fill="url(#roadG2)"/>
+  <rect x="0" y="210" width="480" height="2" fill="#FFB347" opacity=".25"/>
+
+  <!-- Road dashes (yellow) -->
+  <rect x="0"   y="236" width="55" height="3" fill="#FFB347" opacity=".5" rx="1.5"/>
+  <rect x="75"  y="236" width="55" height="3" fill="#FFB347" opacity=".5" rx="1.5"/>
+  <rect x="150" y="236" width="55" height="3" fill="#FFB347" opacity=".5" rx="1.5"/>
+  <rect x="225" y="236" width="55" height="3" fill="#FFB347" opacity=".5" rx="1.5"/>
+  <rect x="300" y="236" width="55" height="3" fill="#FFB347" opacity=".5" rx="1.5"/>
+  <rect x="375" y="236" width="55" height="3" fill="#FFB347" opacity=".5" rx="1.5"/>
+
+  <!-- AUTO RICKSHAW (main subject) -->
+  <!-- Body -->
+  <rect x="160" y="192" width="140" height="42" rx="8" fill="#FFD700"/>
+  <!-- Top hood -->
+  <rect x="175" y="175" width="110" height="22" rx="6" fill="#FFB300"/>
+  <!-- Black stripe -->
+  <rect x="160" y="210" width="140" height="6" fill="#222"/>
+  <!-- Windshield -->
+  <rect x="180" y="178" width="40" height="16" rx="3" fill="#88DDFF" opacity=".8"/>
+  <rect x="228" y="178" width="40" height="16" rx="3" fill="#88DDFF" opacity=".8"/>
+  <!-- Cabin side bars -->
+  <line x1="175" y1="175" x2="175" y2="234" stroke="#CC9900" stroke-width="3"/>
+  <line x1="295" y1="175" x2="295" y2="234" stroke="#CC9900" stroke-width="3"/>
+  <!-- Wheels -->
+  <circle cx="195" cy="237" r="11" fill="#222" stroke="#888" stroke-width="2.5"/>
+  <circle cx="195" cy="237" r="5"  fill="#444"/>
+  <circle cx="275" cy="237" r="11" fill="#222" stroke="#888" stroke-width="2.5"/>
+  <circle cx="275" cy="237" r="5"  fill="#444"/>
+  <!-- Front wheel (small) -->
+  <circle cx="310" cy="237" r="9"  fill="#222" stroke="#888" stroke-width="2"/>
+  <circle cx="310" cy="237" r="4"  fill="#444"/>
+  <!-- Front mudguard -->
+  <path d="M295 220 Q320 215 325 230 L310 234" fill="#FFB300"/>
+  <!-- Meter/fare board -->
+  <rect x="288" y="185" width="30" height="14" rx="2" fill="#222"/>
+  <text x="303" y="195" font-family="Arial" font-size="6" font-weight="bold" fill="#00FF41" text-anchor="middle">METER</text>
+  <!-- Driver silhouette -->
+  <circle cx="220" cy="176" r="8" fill="#8B4513"/>
+  <rect   cx="216" cy="184" width="8" height="10" rx="2" fill="#FFD700" transform="translate(212,184)"/>
+  <!-- Passengers -->
+  <circle cx="250" cy="195" r="6" fill="#8B6914"/>
+  <circle cx="265" cy="195" r="6" fill="#964B00"/>
+  <!-- Roof decoration -->
+  <rect x="175" y="173" width="110" height="4" rx="2" fill="#FF6600"/>
+  <!-- Headlight glow -->
+  <circle cx="308" cy="208" r="8" fill="#FFE87C" opacity=".6"/>
+  <circle cx="308" cy="208" r="15" fill="#FFB347" opacity=".2" filter="url(#glow2)"/>
+
+  <!-- Speed lines -->
+  <line x1="155" y1="205" x2="100" y2="205" stroke="#FFB347" stroke-width="1.5" opacity=".4"/>
+  <line x1="152" y1="212" x2="95"  y2="212" stroke="#FFB347" stroke-width="1" opacity=".3"/>
+  <line x1="150" y1="220" x2="92"  y2="220" stroke="#FFB347" stroke-width="1" opacity=".25"/>
+
+  <!-- Title area overlay -->
+  <rect x="0" y="0" width="480" height="75" fill="#0A1A0A" opacity=".5"/>
+
+  <!-- TITLE -->
+  <text x="240" y="34" font-family="'Arial Black',Arial" font-weight="900" font-size="30" fill="white" text-anchor="middle" filter="url(#glow2)" letter-spacing="-0.5">NAMMA AUTO</text>
+  <rect x="90" y="40" width="300" height="3" rx="1.5" fill="#FFB347" opacity=".9"/>
+  <text x="240" y="60" font-family="Arial" font-size="11" fill="#FFB347" text-anchor="middle" letter-spacing="3">CITY RUSH · RIDE THE STREETS</text>
+
+  <!-- Badge -->
+  <rect x="16" y="246" width="58" height="18" rx="9" fill="#FFB347"/>
+  <text x="45" y="258" font-family="Arial" font-weight="900" font-size="9" fill="#000" text-anchor="middle" letter-spacing="1">RACING</text>
+
+  <!-- Play button -->
+  <circle cx="456" cy="255" r="12" fill="#FFB347" opacity=".9"/>
+  <polygon points="451,249 451,261 463,255" fill="#000"/>
+</svg>

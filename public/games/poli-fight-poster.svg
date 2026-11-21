@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0505"/>
+      <stop offset="100%" stop-color="#2A0A1A"/>
+    </linearGradient>
+    <linearGradient id="arenaG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a0a0a"/>
+      <stop offset="100%" stop-color="#0a0505"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#1A0505" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow3"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="bigGlow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="480" height="270" fill="url(#bg3)"/>
+  <rect width="480" height="270" fill="url(#spotlight)"/>
+
+  <!-- Arena floor -->
+  <ellipse cx="240" cy="240" rx="200" ry="40" fill="#1a0808" opacity=".8"/>
+  <ellipse cx="240" cy="242" rx="180" ry="30" fill="#220a0a" opacity=".6"/>
+
+  <!-- Crowd silhouettes -->
+  <rect x="0"  y="140" width="480" height="60" fill="#0a0505" opacity=".7"/>
+  <!-- Crowd heads -->
+  <circle cx="20"  cy="155" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="40"  cy="150" r="9"  fill="#1a0505" opacity=".9"/>
+  <circle cx="62"  cy="157" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="82"  cy="148" r="10" fill="#1a0505" opacity=".9"/>
+  <circle cx="105" cy="155" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="128" cy="150" r="9"  fill="#1a0505" opacity=".9"/>
+  <circle cx="150" cy="158" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="172" cy="147" r="10" fill="#1a0505" opacity=".9"/>
+  <circle cx="195" cy="155" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="220" cy="150" r="9"  fill="#1a0505" opacity=".9"/>
+  <circle cx="245" cy="157" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="268" cy="148" r="10" fill="#1a0505" opacity=".9"/>
+  <circle cx="290" cy="155" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="314" cy="150" r="9"  fill="#1a0505" opacity=".9"/>
+  <circle cx="336" cy="156" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="358" cy="148" r="10" fill="#1a0505" opacity=".9"/>
+  <circle cx="382" cy="155" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="405" cy="150" r="9"  fill="#1a0505" opacity=".9"/>
+  <circle cx="428" cy="157" r="8"  fill="#150505" opacity=".9"/>
+  <circle cx="455" cy="148" r="10" fill="#1a0505" opacity=".9"/>
+
+  <!-- Spotlights -->
+  <line x1="80"  y1="0" x2="180" y2="200" stroke="#FF8800" stroke-width="30" opacity=".06"/>
+  <line x1="400" y1="0" x2="300" y2="200" stroke="#FF4444" stroke-width="30" opacity=".06"/>
+
+  <!-- FIGHTER 1 — Police Officer (left, blue uniform) -->
+  <!-- Shadow -->
+  <ellipse cx="165" cy="250" rx="30" ry="6" fill="#000" opacity=".5"/>
+  <!-- Legs -->
+  <rect x="148" y="220" width="12" height="30" rx="5" fill="#1a3a6e"/>
+  <rect x="168" y="215" width="12" height="35" rx="5" fill="#1a3a6e"/>
+  <!-- Boots -->
+  <rect x="145" y="246" width="17" height="8" rx="3" fill="#111"/>
+  <rect x="165" y="247" width="17" height="7" rx="3" fill="#111"/>
+  <!-- Torso -->
+  <rect x="145" y="175" width="40" height="48" rx="6" fill="#2255CC"/>
+  <!-- Badge -->
+  <rect x="153" y="183" width="10" height="8" rx="1" fill="#FFD700"/>
+  <text x="158" y="190" font-family="Arial" font-size="5" font-weight="bold" fill="#000" text-anchor="middle">★</text>
+  <!-- Belt -->
+  <rect x="145" y="213" width="40" height="6" rx="2" fill="#111"/>
+  <!-- Neck -->
+  <rect x="158" y="167" width="14" height="12" rx="4" fill="#c8a080"/>
+  <!-- Head -->
+  <circle cx="165" cy="158" r="17" fill="#c8a080"/>
+  <!-- Police cap -->
+  <rect x="148" y="143" width="34" height="10" rx="3" fill="#1a3a6e"/>
+  <rect x="145" y="150" width="40" height="5"  rx="2" fill="#1a3a6e"/>
+  <rect x="152" y="140" width="26" height="6"  rx="2" fill="#2255CC"/>
+  <!-- Badge on cap -->
+  <circle cx="165" cy="143" r="4" fill="#FFD700"/>
+  <!-- Eyes -->
+  <circle cx="161" cy="158" r="2.5" fill="white"/>
+  <circle cx="169" cy="158" r="2.5" fill="white"/>
+  <circle cx="162" cy="158" r="1.5" fill="#333"/>
+  <circle cx="170" cy="158" r="1.5" fill="#333"/>
+  <!-- Mustache -->
+  <path d="M160 164 Q165 167 170 164" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- Punch arm extended toward right -->
+  <rect x="183" y="185" width="35" height="12" rx="5" fill="#2255CC" transform="rotate(-10,183,191)"/>
+  <circle cx="220" cy="186" r="10" fill="#c8a080" stroke="#aaa" stroke-width="1.5"/>
+  <!-- Other arm guard -->
+  <rect x="128" y="192" width="22" height="10" rx="5" fill="#2255CC"/>
+  <!-- Impact flash -->
+  <circle cx="295" cy="186" r="22" fill="#FFE000" opacity=".6" filter="url(#bigGlow)"/>
+  <text x="295" y="192" font-family="'Arial Black',Arial" font-size="16" font-weight="900" fill="#FFE000" text-anchor="middle" filter="url(#glow3)">POW!</text>
+
+  <!-- FIGHTER 2 — Villain (right side, dark outfit) -->
+  <!-- Shadow -->
+  <ellipse cx="315" cy="250" rx="30" ry="6" fill="#000" opacity=".5"/>
+  <!-- Legs -->
+  <rect x="298" y="215" width="12" height="35" rx="5" fill="#2a2a2a"/>
+  <rect x="318" y="220" width="12" height="30" rx="5" fill="#2a2a2a"/>
+  <!-- Boots -->
+  <rect x="295" y="246" width="17" height="7" rx="3" fill="#111"/>
+  <rect x="316" y="247" width="17" height="8" rx="3" fill="#111"/>
+  <!-- Torso -->
+  <rect x="296" y="175" width="40" height="48" rx="6" fill="#1a1a1a" stroke="#444" stroke-width="1"/>
+  <!-- Chains/jacket details -->
+  <line x1="308" y1="178" x2="308" y2="220" stroke="#666" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="324" y1="178" x2="324" y2="220" stroke="#666" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <!-- Belt -->
+  <rect x="296" y="213" width="40" height="6" rx="2" fill="#333"/>
+  <!-- Neck -->
+  <rect x="309" y="167" width="14" height="12" rx="4" fill="#b07850"/>
+  <!-- Head -->
+  <circle cx="316" cy="158" r="17" fill="#b07850"/>
+  <!-- Hair (spiky) -->
+  <path d="M300 148 L304 135 L310 148 L315 130 L320 148 L326 134 L330 148 L334 136 L338 150" fill="#222" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="299" y="145" width="34" height="8" rx="2" fill="#222"/>
+  <!-- Angry eyes -->
+  <circle cx="311" cy="157" r="2.5" fill="white"/>
+  <circle cx="321" cy="157" r="2.5" fill="white"/>
+  <circle cx="312" cy="157" r="1.5" fill="#cc0000"/>
+  <circle cx="322" cy="157" r="1.5" fill="#cc0000"/>
+  <!-- Frown -->
+  <path d="M310 166 Q316 163 322 166" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- Scar -->
+  <line x1="318" y1="150" x2="323" y2="162" stroke="#8B0000" stroke-width="1.5"/>
+  <!-- Recoiling arm (hit) -->
+  <rect x="258" y="188" width="40" height="12" rx="5" fill="#1a1a1a" transform="rotate(15,258,194)"/>
+  <!-- Other fist raised -->
+  <rect x="333" y="183" width="22" height="10" rx="5" fill="#1a1a1a"/>
+  <circle cx="356" cy="188" r="9" fill="#b07850" stroke="#888" stroke-width="1.5"/>
+
+  <!-- VS text -->
+  <text x="240" y="225" font-family="'Arial Black',Arial" font-size="22" font-weight="900" fill="#FFE000" text-anchor="middle" filter="url(#glow3)" opacity=".9">VS</text>
+
+  <!-- Title overlay -->
+  <rect x="0" y="0" width="480" height="72" fill="#1A0505" opacity=".55"/>
+
+  <!-- TITLE -->
+  <text x="240" y="35" font-family="'Arial Black',Arial" font-weight="900" font-size="32" fill="white" text-anchor="middle" filter="url(#glow3)" letter-spacing="2">POLI FIGHT</text>
+  <rect x="95" y="42" width="290" height="3" rx="1.5" fill="#FF4444" opacity=".9"/>
+  <text x="240" y="62" font-family="Arial" font-size="11" fill="#FF8888" text-anchor="middle" letter-spacing="3">STREET BRAWL · FIGHT FOR JUSTICE</text>
+
+  <!-- Badge -->
+  <rect x="16" y="246" width="52" height="18" rx="9" fill="#FF4444"/>
+  <text x="42" y="258" font-family="Arial" font-weight="900" font-size="9" fill="white" text-anchor="middle" letter-spacing="1">FIGHTING</text>
+
+  <!-- Play button -->
+  <circle cx="456" cy="255" r="12" fill="#FF4444" opacity=".9"/>
+  <polygon points="451,249 451,261 463,255" fill="white"/>
+</svg>
