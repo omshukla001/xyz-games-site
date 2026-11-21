@@ -97,10 +97,10 @@ export default function GameDetails() {
                       <Play className="w-4 h-4 fill-white" />
                       Play Now
                     </Link>
-                    <a href={launchUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary text-sm">
-                      <ExternalLink className="w-4 h-4" />
-                      Open Game Site
-                    </a>
+                    <Link to={`/play/${game.slug}`} className="btn-secondary text-sm">
+                      <Play className="w-4 h-4 fill-current" />
+                      Quick Play
+                    </Link>
                   </div>
                 </div>
               </div>

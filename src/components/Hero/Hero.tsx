@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowDownRight, ArrowLeft, ArrowRight, Pause, Play, Sparkles } from 'lucide-react';
-import { featuredGames, resolveLaunchUrl } from '../../data/games';
+import { featuredGames } from '../../data/games';
 
 export default function Hero() {
   const games = featuredGames();
@@ -29,8 +29,6 @@ export default function Hero() {
   };
 
   if (!current) return <EmptyHero />;
-
-  const launchUrl = resolveLaunchUrl(current);
 
   return (
     <section className="home-hero relative overflow-hidden" style={{ background:'#080C14' }}>
@@ -66,10 +64,10 @@ export default function Hero() {
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-3.5">
-                <a href={launchUrl} target="_blank" rel="noopener noreferrer"
+                <Link to={`/play/${current.slug}`}
                   className="btn-orange hero-play-button px-7 py-4 text-sm sm:text-base">
                   <Play className="w-4 h-4 fill-white"/> Play this game
-                </a>
+                </Link>
                 <Link to={`/game/${current.slug}`} className="btn-secondary px-6 py-3.5 text-sm">
                   Discover <ArrowDownRight className="w-4 h-4"/>
                 </Link>
