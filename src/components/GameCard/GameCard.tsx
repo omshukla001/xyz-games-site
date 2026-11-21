@@ -147,10 +147,10 @@ export function GameSpotlight({ game, index=0 }: { game:Game; index?:number }) {
           <h3 className="font-display font-bold text-white text-base mb-0.5 truncate">{game.name}</h3>
           <p className="text-xs line-clamp-1" style={{ color:'#8899BB' }}>{game.description}</p>
         </div>
-        <a href={launchUrl} target="_blank" rel="noopener noreferrer"
+        <Link to={`/play/${game.slug}`}
           className="flex-shrink-0 btn-primary text-xs px-5 py-2.5">
           <Play className="w-3.5 h-3.5 fill-white"/> Play
-        </a>
+        </Link>
       </div>
     </motion.div>
   );

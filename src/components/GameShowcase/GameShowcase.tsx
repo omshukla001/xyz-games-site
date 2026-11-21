@@ -362,11 +362,11 @@ function ShowcaseCard({ game, index }: { game: Game; index: number }) {
 
         {/* CTA buttons */}
         <div className="flex gap-2 mt-auto pt-1">
-          <a href={game.originalUrl} target="_blank" rel="noopener noreferrer"
+          <Link to={`/play/${game.slug}`}
             className="showcase-play-link flex-1 flex items-center justify-center gap-2 py-3 rounded-xl font-black text-sm uppercase tracking-widest text-white transition-all duration-200"
             style={{ background:`linear-gradient(100deg,${accentColor},${accentColor2})`, boxShadow:`0 8px 24px ${accentColor}25` }}>
             <Play className="w-4 h-4 fill-white"/> Play now <ArrowRight className="ml-1 w-4 h-4"/>
-          </a>
+          </Link>
           <Link to={`/game/${game.slug}`}
             aria-label={`More details about ${game.name}`}
             className="flex items-center justify-center px-3 rounded-xl transition-all duration-200"
