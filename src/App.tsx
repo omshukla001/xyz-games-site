@@ -1,5 +1,6 @@
 import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 
@@ -55,6 +56,7 @@ export default function App() {
       </div>
 
       <Footer />
+      <Analytics />
     </div>
   );
 }
